@@ -6,7 +6,7 @@ data "azurerm_management_group" "example_parent" {
 }
 
 resource "random_string" "example" {
-  length  = 10
+  length  = 11
   special = false
   numeric = false
   upper   = false
